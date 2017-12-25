@@ -92,7 +92,7 @@ $(function() {
         it('at least single entry', function(){
 
             //at least 1 entry loaded
-            expect($(".feed").find(".entry").length > 0).toBe(true);
+            expect($('.feed .entry').length > 0).toBe(true);
         });
     });
 
